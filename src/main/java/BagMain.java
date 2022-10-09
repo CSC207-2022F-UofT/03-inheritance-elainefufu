@@ -19,11 +19,12 @@ class BagMain {
         // TODO: Implement this.
         if (double_enhance_handbags){
             for(Bag b:bags){
-                b.increaseCapacity(2);
+                b.enhance();
+                b.enhance();
             }
         }else{
             for (Bag b:bags){
-                b.increaseCapacity(1);
+                b.enhance();
             }
         }
     }
